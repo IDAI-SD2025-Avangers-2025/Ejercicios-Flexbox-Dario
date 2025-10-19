@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Flexbox 5 CSS</title>
+
+     <style>
+        .contenedor {
+    		width: 50%;
+    		height: 400px;
+    		background-color: yellow;
+    		margin: 40px auto;
+		
+		/* Aplicar FLEXBOX */
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.items{
+			background: lightblue;
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			text-align: center;
+			line-height: 100px;
+			font-size: 22px;
+		}
+
+		.item1{
+			flex: 1 1 25%;
+			order: 3;
+		}
+
+		.item2{
+			flex: 2 2 25%;
+			order: 2;
+		}
+
+		.item3{
+			flex: 3 3 25%;
+			order: 0;
+		}
+
+		.item4{
+			flex: 4 4 25%;
+			order: 1;
+		}
+     </style>
+
+
+</head>
+<body background="img/imagen los simpons.jpg">
+     <div class="contenedor">
+          <div class="items item1">1</div>
+          <div class="items item2">2</div>
+          <div class="items item3">3</div>
+          <div class="items item4">4</div>
+     </div>
+
+<div style="clear: both;"></div>
+     <p class="index">
+          <a href="index.html">Regresame a mi Índice de flexbox</a>
+     </p>
+
+</body>
+</html>
