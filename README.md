@@ -31,6 +31,7 @@ o simplemente flex para agrupar estas propiedades de forma abreviada
 
 
 PORQUE FLEXBOX FACILITA EL DISEÑO ADAPTABLE
+
 Flexbox facilita el diseño adaptable porque permite que los elementos se ajusten automáticamente 
 al tamaño de la pantalla, 
 reorganizándose de forma flexible sin necesidad de escribir mucho código adicional. 
